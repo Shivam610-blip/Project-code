@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0; 
+}
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	background: whitesmoke;
+}
+.icon-area {
+	display: flex;
+}
+.icon-area .icon a {
+	width: 80px;
+	height: 80px;
+	background: #fff;
+	font-size: 45px;
+	margin: 0 15px;
+	display: block;
+	line-height: 80px;
+	text-align: center;
+	border-radius: 5px;
+	position: relative;
+	border-radius: 50px;
+	overflow: hidden;
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.icon-area .icon a i {
+	position: relative;
+	color: #262626;
+	transition: 900ms;
+}
+.icon-area .icon a:hover i {
+	transform: rotateY(360deg);
+	color: #fff;
+}
+.icon-area .icon a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, #09d3f3, #0159e4);
+	left: 0;
+	top: 100%;
+	transition: 1.5s;
+}
+.icon-area .icon a:hover:before {
+	top: 0;
+}
+
+
+
+
+.icon-area .youtube a:before {
+	background: linear-gradient(to bottom, red,red);
+}
+
+
+
+.icon-area .instagram a:before {
+	background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+}
+
+
+
+.icon-area .redit a:before {
+	background: linear-gradient(115deg, #FF4301, #FF4301, #FF4301);
+}
+
+
+
+
+.icon-area .whatsapp a:before {
+background: linear-gradient(115deg, 
+	#075E54, 
+	#075E54, 
+	#075E54);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
